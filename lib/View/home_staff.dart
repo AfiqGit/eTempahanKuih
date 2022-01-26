@@ -75,7 +75,14 @@ class _HomePageStaffState extends State<HomePageStaff> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
-                  
+                  IconButton(
+                    onPressed: () async{
+                      // Navigator.pushNamed(context, '/login');
+                      Navigator.push(context, BouncyPageRoute(widget: UserProfile()));
+                      //  Navigator.of(context).pushNamedAndRemoveUntil('/login', (Route<dynamic> route) => false);
+                    },
+                    icon: Icon(Icons.person),
+                  ),
                   IconButton(
                     onPressed: () async{
                       // Navigator.pushNamed(context, '/login');
