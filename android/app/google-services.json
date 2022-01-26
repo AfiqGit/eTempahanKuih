@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "459706777471",
+    "project_id": "tempahankuih-52f1b",
+    "storage_bucket": "tempahankuih-52f1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459706777471:android:087c057985a514947f644a",
+        "android_client_info": {
+          "package_name": "com.example.tempahankuih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459706777471-hc9befg2enh2g3c9aur69f3jd111adfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMp352Y1TVzO09vv9EBrGiokRHypR9t9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459706777471-hc9befg2enh2g3c9aur69f3jd111adfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
