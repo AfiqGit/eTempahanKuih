@@ -332,19 +332,25 @@ class _ManageOrderState extends State<ManageOrder> {
                                           child: Row(
                                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                             children: <Widget>[
-                                              Text(
-                                                'Order Received',
-                                                style: TextStyle(
-                                                  fontFamily: 'Oxygen',
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 15.5,
-                                                  color: Colors.green,
+                                              Flexible(
+                                                flex: 2,
+                                                child: Text(
+                                                  'Order Received',
+                                                  style: TextStyle(
+                                                    fontFamily: 'Oxygen',
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize: 15.5,
+                                                    color: Colors.green,
+                                                  ),
                                                 ),
                                               ),
-                                              Icon(
-                                                Icons.check_circle,
-                                                size: 20,
-                                                color: Colors.green
+                                              Flexible(
+                                                flex: 1,
+                                                child: Icon(
+                                                  Icons.check_circle,
+                                                  size: 20,
+                                                  color: Colors.green
+                                                ),
                                               )
                                             ],
                                           ),
